@@ -1,0 +1,141 @@
+body {
+    font-family: roboto condensed;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.header {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    padding: 10px 20px;*/
+/*    background-color: rgba(0, 0, 0, 0.6);*/
+/*}*/
+
+/*.header a {*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.header-navbar {*/
+/*    display: flex;*/
+/*}*/
+
+/*.header-navbar a {*/
+/*    margin: auto 0 auto 15px;*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 700;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.header-navbar a + .header-navbar a {*/
+/*    !*margin-left: 10px;*!*/
+/*}*/
+
+/*.header-links img {*/
+/*    width: 30px;*/
+/*}*/
+
+
+.header {
+    z-index: 5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-navbar a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 15px;
+    border-bottom: 1px solid transparent;
+    padding: 25px 0;
+}
+
+.header-navbar a:hover {
+    border-color: white;
+    /*border-radius: 15%;*/
+}
+
+.header-navbar a:first-child {
+    margin-left: 0;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-links a {
+    margin-left: 25px;
+    padding: 25px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.header-links a:hover {
+    border-color: white;
+}
+
+.header-links a:first-child {
+    margin-left: 0;
+}
+
+.header-links img {
+    width: 30px;
+}
+
+.tickets {
+    background-image: url(./images/bg3-tickets.jpg);
+    height: 100vh;
+    /*position: absolute;*/
+    /*z-index: 5;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-position: 100% 100%;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*background-size: 100%;*/
+}
+
+.tickets p {
+    width: 300px;
+    /*height: 100px;*/
+    /*display: inline-block;*/
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 100px;
+    color: white;
+    /*font-family: Pacifico;*/
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    /*border: 3px solid red;*/
+    /*background-color: rgba(105,105,105,  0.1);*/
+}
+
+.tickets-link {
+    position: absolute;
+    margin-top: 500px;
+    color: white;
+    background-color: rgba(230,230,250, 0.1);
+    padding: 10px 20px;
+    border: 1px solid #E0FFFF;
+    margin-left: 200px;
+}
